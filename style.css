@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  background: url("https://images.unsplash.com/photo-1557973557-ddfa9ee8c5bf?q=80&w=1074&auto=format&fit=crop") center/cover no-repeat fixed;
+  backdrop-filter: blur(3px);
+}
+
+/* 半透明背景容器 */
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 245, 230, 0.85);
+  border-radius: 16px;
+  margin-top: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+/* 標題 */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #8b5a2b; /* 柯基毛色 */
+}
+
+/* 內部卡片 */
+.card {
+  background: #fff8ee;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+label {
+  font-size: 1rem;
+  display: block;
+  margin-top: 10px;
+  color: #6b4b2d;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #d2b48c;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 1.1rem;
+  background-color: #ffba4a; /* 柯基黃色 */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+button:hover {
+  background-color: #e1992d;
+}
+
+.result {
+  margin-top: 20px;
+  background: #fff3e0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #5b4636;
+}
+
+footer a {
+  color: #6b3f1f;
+}
