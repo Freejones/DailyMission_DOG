@@ -2,79 +2,90 @@ body {
   margin: 0;
   font-family: "Noto Sans TC", sans-serif;
   background: url("https://images.unsplash.com/photo-1557973557-ddfa9ee8c5bf?q=80&w=1074&auto=format&fit=crop") center/cover no-repeat fixed;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(4px);
 }
 
 /* 半透明背景容器 */
 .container {
   max-width: 480px;
-  margin: 0 auto;
+  margin: 40px auto;
   padding: 20px;
-  background: rgba(255, 245, 230, 0.85);
-  border-radius: 16px;
-  margin-top: 40px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 248, 235, 0.88);
+  border-radius: 22px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.22);
 }
 
-/* 狗狗圖示置中 */
+/* 狗狗圖案 */
 .icon {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 5px;
 }
 
-/* 標題 */
+/* 標題置中 */
 .title {
   text-align: center;
   margin-bottom: 20px;
-  color: #8b5a2b;
+  color: #8c5c3a;
+  font-weight: 700;
+  font-size: 1.8rem;
 }
 
-/* 內部卡片 */
+/* 資料卡片 */
 .card {
-  background: #fff8ee;
-  border-radius: 12px;
-  padding: 20px;
+  background: #fff7ee;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 3px 10px rgba(120, 90, 40, 0.15);
 }
 
 label {
   font-size: 1rem;
   display: block;
-  margin-top: 10px;
-  color: #6b4b2d;
+  margin-top: 16px;
+  color: #7a5437;
 }
 
+/* 輸入框不超框 + 可愛圓角 */
 input {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   margin-top: 6px;
-  border: 1px solid #d2b48c;
-  border-radius: 8px;
+  border: 1.8px solid #e2c9aa;
+  border-radius: 12px;
   font-size: 1rem;
+  box-sizing: border-box;
+  background: #fff;
 }
 
+/* 可愛按鈕 */
 button {
   width: 100%;
-  margin-top: 20px;
-  padding: 12px;
-  font-size: 1.1rem;
-  background-color: #ffba4a;
-  color: white;
+  margin-top: 22px;
+  padding: 14px;
+  font-size: 1.15rem;
+  background-color: #ffcf7d;
+  color: #5c3a18;
   border: none;
-  border-radius: 10px;
+  border-radius: 14px;
   cursor: pointer;
+  font-weight: 700;
   transition: 0.25s;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
 }
 
 button:hover {
-  background-color: #e1992d;
+  background-color: #ffb85c;
+  transform: translateY(-2px);
 }
 
+/* 結果區塊 */
 .result {
   margin-top: 20px;
-  background: #fff3e0;
-  padding: 15px;
-  border-radius: 10px;
+  background: #fff2dd;
+  padding: 16px;
+  border-radius: 14px;
+  box-shadow: 0 2px 6px rgba(100, 70, 30, 0.15);
 }
 
 .hidden {
@@ -84,7 +95,7 @@ button:hover {
 footer {
   text-align: center;
   margin-top: 20px;
-  color: #5b4636;
+  color: #6b5030;
 }
 
 footer a {
